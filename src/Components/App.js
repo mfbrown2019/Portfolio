@@ -244,6 +244,11 @@ function App() {
                     ></input>
                     <input type="hidden" name="_captcha" value="false"></input>
                     <input
+                        type="hidden"
+                        name="_next"
+                        value="https://mfbrown2019.github.io/Portfolio/"
+                    />
+                    <input
                         className="contact-name"
                         placeholder="Name"
                         name="Name"
