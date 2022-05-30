@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1ab982e6.css",
-    "main.js": "/Portfolio/static/js/main.4a018d47.js",
+    "main.js": "/Portfolio/static/js/main.66f8162f.js",
     "static/media/fullbody.jpg": "/Portfolio/static/media/fullbody.abbb70c4f837ea90d87e.jpg",
     "static/media/backend.png": "/Portfolio/static/media/backend.c9d20fcdb0a390be8e4b.png",
     "static/media/Matthew Brown Resume.docx": "/Portfolio/static/media/Matthew Brown Resume.2778611f94baa5709b71.docx",
@@ -15,10 +15,10 @@
     "static/media/sql.png": "/Portfolio/static/media/sql.716ccee06a2406fb4ec4.png",
     "index.html": "/Portfolio/index.html",
     "main.1ab982e6.css.map": "/Portfolio/static/css/main.1ab982e6.css.map",
-    "main.4a018d47.js.map": "/Portfolio/static/js/main.4a018d47.js.map"
+    "main.66f8162f.js.map": "/Portfolio/static/js/main.66f8162f.js.map"
   },
   "entrypoints": [
     "static/css/main.1ab982e6.css",
-    "static/js/main.4a018d47.js"
+    "static/js/main.66f8162f.js"
   ]
 }
