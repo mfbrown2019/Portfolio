@@ -1,0 +1,717 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.container-1 {
+    border-right: 1px solid #777;
+    position: fixed;
+    background-color: #111;
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+}
+.container-1 div {
+    /* border: 1px solid pink; */
+    align-items: stretch;
+    font-size: 24px;
+}
+.container-1 .container-box img {
+    border-radius: 50%;
+}
+
+.hover:hover {
+    background-color: #333;
+}
+
+.whitespace {
+    margin-bottom: 20px;
+}
+.space {
+    margin-top: 50px;
+}
+
+.App {
+    font-family: sans-serif;
+}
+.FullPage {
+    position: absolute;
+    left: 15%;
+}
+
+.home {
+    height: 100vh;
+    display: grid;
+    color: white;
+
+    place-items: center;
+    background-image: url("../Pictures/coverphoto.jpeg");
+    background-color: #444;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.home h1 {
+    font-size: 4rem;
+}
+
+.about-grid {
+    background-color: ghostwhite;
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 5fr 2fr;
+    grid-template-rows: 1fr 1fr 10fr 1fr;
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-color: #111;
+    color: white;
+}
+.about-grid .title {
+    grid-column: 2;
+    text-align: left;
+    grid-row: 2;
+    color: lightcoral;
+    /* border: 1px solid red; */
+}
+
+.about-grid .image {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 3;
+    /* border: 1px solid red; */
+}
+
+.about-grid .content {
+    grid-column: 4;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+.content h1,
+.content p,
+.content a {
+    text-align: left;
+}
+
+.content a {
+    background-color: black;
+    width: max-content;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.content a:hover {
+    background-color: lightcoral;
+    color: black;
+}
+
+.skills-grid {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 6fr) 1fr;
+    grid-template-rows: 0.15fr 1fr 3fr 0.25fr;
+    /* border: 1px solid green; */
+    height: 100vh;
+    grid-template-areas:
+        "..... ..... ..... ..... ......"
+        "..... ..... title ..... ......"
+        ".....  one   two  three ......"
+        "..... ..... ..... ..... ......";
+    gap: 1em;
+    background-color: #111;
+    color: white;
+}
+
+.skills-grid .title {
+    grid-area: title;
+    display: grid;
+    place-items: center;
+    color: lightcoral;
+    /* border: 1px solid green; */
+}
+
+.skills-grid .front-end {
+    grid-area: one;
+    /* border: 1px solid green; */
+}
+
+.skills-grid .back-end {
+    grid-area: two;
+    /* border: 1px solid green; */
+}
+.skills-grid .sql {
+    grid-area: three;
+    /* border: 1px solid green; */
+}
+/* ************************************************** */
+.front-end,
+.back-end,
+.sql {
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    border-radius: 1rem;
+    color: #111;
+}
+.front-end .original {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    /* opacity: 0; */
+    transform: translateX(0%);
+    transition: transform 500ms ease;
+}
+.back-end .original {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    /* opacity: 0; */
+    transform: translateY(0%);
+    transition: transform 500ms ease;
+}
+
+.sql .original {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    /* opacity: 0; */
+    transform: translateX(0%);
+    transition: transform 500ms ease;
+}
+.front-end .original img {
+    width: 65%;
+}
+.back-end .original img {
+    width: 100%;
+}
+.sql .original img {
+    width: 60%;
+}
+.front-end .card-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-image: linear-gradient(-90deg, lightcoral, white);
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 0.5fr 3fr 0.5fr;
+    grid-template-areas:
+        "... ... ... ... ... ..."
+        "... html css java react ..."
+        "... htmlT cssT javaT reactT ...";
+    gap: 1em;
+    transform: translateX(100%);
+    transition: transform 500ms ease;
+}
+
+.back-end .card-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+
+    background-image: radial-gradient(white 0%, lightcoral 100%);
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.5fr 3fr 0.5fr;
+    grid-template-areas:
+        "... ... ... ..."
+        "... python c ..."
+        "... pythonT cT ...";
+    gap: 1em;
+    transform: translateY(100%);
+    transition: transform 500ms ease;
+}
+
+.sql .card-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+
+    background-image: linear-gradient(90deg, lightcoral, white);
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.5fr 3fr 0.5fr;
+    grid-template-areas:
+        "... ... ... ... ..."
+        "... sql tabel redundancy ..."
+        "... sqlT tabelT redundancyT ...";
+    gap: 1em;
+    transform: translateX(-100%);
+    transition: transform 500ms ease;
+}
+.front-end:hover,
+.back-end:hover,
+.sql:hover {
+    transform: scale(1.01);
+}
+.front-end:hover .card-content {
+    transform: translateX(0);
+}
+.back-end:hover .card-content {
+    transform: translateY(0);
+}
+.sql:hover .card-content {
+    transform: translateX(0);
+}
+.front-end:hover .original {
+    /* transform: scale(1.05); */
+    transform: translateX(-100%);
+}
+.back-end:hover .original {
+    transform: translateY(-100%);
+}
+.sql:hover .original {
+    transform: translateX(100%);
+}
+.full-html {
+    /* border-radius: 1em; */
+    position: relative;
+    /* width: 100%; */
+    /* background-color: #777; */
+    margin: 0;
+    padding: 0;
+    grid-area: html;
+}
+
+.html-name {
+    grid-area: htmlT;
+}
+.html-percent {
+    background-color: green;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.full-css {
+    position: relative;
+    width: 100%;
+    /* background-color: #777; */
+    margin: 0;
+    padding: 0;
+    grid-area: css;
+}
+.css-name {
+    grid-area: cssT;
+}
+.css-percent {
+    background-color: blue;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.full-java {
+    /* border-radius: 1em; */
+    position: relative;
+    width: 100%;
+    /* background-color: #777; */
+    margin: 0;
+    padding: 0;
+    grid-area: java;
+}
+
+.java-name {
+    grid-area: javaT;
+}
+.java-percent {
+    background-color: red;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.full-react {
+    /* border-radius: 1em; */
+    position: relative;
+    width: 100%;
+    /* background-color: #777; */
+    margin: 0;
+    padding: 0;
+    grid-area: react;
+}
+
+.react-name {
+    grid-area: reactT;
+}
+.react-percent {
+    background-color: orange;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.full-python {
+    /* border-radius: 1em; */
+    position: relative;
+    width: 100%;
+    /* background-color: #777; */
+    margin: 0;
+    padding: 0;
+    grid-area: python;
+}
+
+.python-name {
+    grid-area: pythonT;
+}
+.python-percent {
+    background-color: green;
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.full-c {
+    /* border-radius: 1em; */
+    position: relative;
+    width: 100%;
+    /* background-color: #777; */
+    margin: 0;
+    padding: 0;
+    grid-area: c;
+}
+
+.c-name {
+    grid-area: cT;
+}
+.c-percent {
+    background-color: blue;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.full-sql {
+    /* border-radius: 1em; */
+    position: relative;
+    width: 100%;
+    /* background-color: #777; */
+    margin: 0;
+    padding: 0;
+    grid-area: sql;
+}
+
+.sql-name {
+    grid-area: sqlT;
+}
+.sql-percent {
+    background-color: green;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    /* transform: rotate(45deg); */
+}
+
+.full-tabels {
+    /* border-radius: 1em; */
+    position: relative;
+    width: 100%;
+    /* background-color: #777; */
+    margin: 0;
+    padding: 0;
+    grid-area: tabel;
+}
+
+.tabels-name {
+    grid-area: tabelT;
+}
+.tabels-percent {
+    background-color: blue;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.full-red {
+    /* border-radius: 1em; */
+    position: relative;
+    width: 100%;
+    /* background-color: #777; */
+    margin: 0;
+    padding: 0;
+    grid-area: redundancy;
+}
+
+.red-name {
+    grid-area: redundancyT;
+}
+.red-percent {
+    background-color: red;
+    height: 55%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+/* ************************************************** */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 6fr 1fr;
+    grid-template-rows: 1fr 1fr repeat(6, 3fr) 1fr;
+    gap: 1rem;
+    grid-template-areas:
+        ".... .... .... ...."
+        ".... title .... ...."
+        ".... one-image one-text ...."
+        ".... two-image two-text ...."
+        ".... three-image three-text ...."
+        ".... four-image four-text ...."
+        ".... five-image five-text ...."
+        ".... six-image six-text ...."
+        ".... .... .... ....";
+    height: 200vh;
+    background-color: #111;
+    color: white;
+}
+
+.project-grid .title {
+    grid-area: title;
+    text-align: center;
+    color: lightcoral;
+}
+.project-grid .one-picture {
+    grid-area: one-image;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 100%;
+}
+.one-text {
+    margin: 10px;
+    grid-area: one-text;
+}
+.project-grid div > ul > li {
+    text-align: left;
+}
+.project-grid h4 {
+    text-align: left;
+}
+
+.project-grid .two-picture {
+    grid-area: two-image;
+    border: 1px solid black; /* important */
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 100%;
+}
+.two-text {
+    margin: 10px;
+    grid-area: two-text;
+}
+
+.project-grid .three-picture {
+    grid-area: three-image;
+
+    /* border: 1px solid red; */
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 100%;
+}
+.three-text {
+    margin: 10px;
+    grid-area: three-text;
+}
+
+.project-grid .four-picture {
+    grid-area: four-image;
+
+    /* border: 1px solid red; */
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 100%;
+}
+.four-text {
+    margin: 10px;
+    grid-area: four-text;
+}
+.project-grid .five-picture {
+    grid-area: five-image;
+
+    /* border: 1px solid red; */
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 100%;
+}
+.five-text {
+    margin: 10px;
+    grid-area: five-text;
+}
+.project-grid .six-picture {
+    grid-area: six-image;
+
+    /* border: 1px solid red; */
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 100%;
+}
+.six-text {
+    margin: 10px;
+    grid-area: six-text;
+}
+
+.picture {
+    border-radius: 10px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.contact {
+    height: 75vh;
+    background-color: #111;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 0.5fr;
+    grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 1fr 0.3fr 0.2fr;
+    grid-template-areas:
+        "... ... ... ..."
+        "... title ... ..."
+        "... name ... ..."
+        "... subject email ..."
+        "... message message ..."
+        "... submit ... ..."
+        "... ... ... ...";
+    gap: 2rem;
+    position: relative;
+}
+.contact > *:not(h2, .contact-submit) {
+    background-color: #eee;
+    padding: 1.2rem;
+    font-size: 1rem;
+    text-align: left;
+    border-radius: 1rem;
+    border: none;
+}
+
+.contact > *:not(h2, .contact-submit):focus {
+    outline: 2px solid lightcoral;
+}
+
+.contact-title {
+    grid-area: title;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    color: lightcoral;
+}
+
+.contact-name {
+    grid-area: name;
+}
+.contact-subject {
+    grid-area: subject;
+}
+.contact-email {
+    grid-area: email;
+}
+
+.contact-message {
+    grid-area: message;
+}
+
+.contact-submit {
+    /* background-color: lightcoral; */
+    width: 10rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    grid-area: submit;
+    border: none;
+}
+
+.contact-submit:hover {
+    background-color: lightcoral;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.footer {
+    height: 25vh;
+    background-color: #111;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-areas:
+        "... ... ... ... ..."
+        "... phone ... email ..."
+        "... phone ... email ..."
+        "... ... ... ... ...";
+}
+
+.footer > * {
+    background-color: #111;
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+    color: white;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    justify-content: space-around;
+}
+.phone {
+    grid-area: phone;
+    height: 100%;
+}
+.phone > img {
+    width: 25%;
+}
+
+.email {
+    grid-area: email;
+}
+.email > img {
+    width: 25%;
+}
