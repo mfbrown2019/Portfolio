@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Profolio/static/css/main.689ae271.css",
-    "main.js": "/Profolio/static/js/main.0c4e837a.js",
-    "static/media/fullbody.jpg": "/Profolio/static/media/fullbody.abbb70c4f837ea90d87e.jpg",
-    "static/media/backend.png": "/Profolio/static/media/backend.c9d20fcdb0a390be8e4b.png",
-    "static/media/Matthew Brown Resume.docx": "/Profolio/static/media/Matthew Brown Resume.2778611f94baa5709b71.docx",
-    "static/media/coverphoto.jpeg": "/Profolio/static/media/coverphoto.09a66b67ae630628e0da.jpeg",
-    "static/media/linkedin.png": "/Profolio/static/media/linkedin.aadf58a0fbf572a479ef.png",
-    "static/media/logo-react-icon.png": "/Profolio/static/media/logo-react-icon.283bf42c605cfc49cf49.png",
-    "static/media/phone.png": "/Profolio/static/media/phone.b6ffbc63f03049db26c8.png",
-    "static/media/headShot.png": "/Profolio/static/media/headShot.b05644335c2a0ccee9a9.png",
-    "static/media/email.png": "/Profolio/static/media/email.4f2532a78962deef50e5.png",
-    "static/media/chessCover.png": "/Profolio/static/media/chessCover.98ee3db1ea34adee4796.png",
-    "static/media/sql.png": "/Profolio/static/media/sql.716ccee06a2406fb4ec4.png",
-    "index.html": "/Profolio/index.html",
-    "main.689ae271.css.map": "/Profolio/static/css/main.689ae271.css.map",
-    "main.0c4e837a.js.map": "/Profolio/static/js/main.0c4e837a.js.map"
+    "main.css": "/Porfolio/static/css/main.43579065.css",
+    "main.js": "/Porfolio/static/js/main.047ea324.js",
+    "static/media/fullbody.jpg": "/Porfolio/static/media/fullbody.abbb70c4f837ea90d87e.jpg",
+    "static/media/backend.png": "/Porfolio/static/media/backend.c9d20fcdb0a390be8e4b.png",
+    "static/media/Matthew Brown Resume.docx": "/Porfolio/static/media/Matthew Brown Resume.2778611f94baa5709b71.docx",
+    "static/media/coverphoto.jpeg": "/Porfolio/static/media/coverphoto.09a66b67ae630628e0da.jpeg",
+    "static/media/linkedin.png": "/Porfolio/static/media/linkedin.aadf58a0fbf572a479ef.png",
+    "static/media/logo-react-icon.png": "/Porfolio/static/media/logo-react-icon.283bf42c605cfc49cf49.png",
+    "static/media/phone.png": "/Porfolio/static/media/phone.b6ffbc63f03049db26c8.png",
+    "static/media/headShot.png": "/Porfolio/static/media/headShot.b05644335c2a0ccee9a9.png",
+    "static/media/email.png": "/Porfolio/static/media/email.4f2532a78962deef50e5.png",
+    "static/media/chessCover.png": "/Porfolio/static/media/chessCover.98ee3db1ea34adee4796.png",
+    "static/media/sql.png": "/Porfolio/static/media/sql.716ccee06a2406fb4ec4.png",
+    "index.html": "/Porfolio/index.html",
+    "main.43579065.css.map": "/Porfolio/static/css/main.43579065.css.map",
+    "main.047ea324.js.map": "/Porfolio/static/js/main.047ea324.js.map"
   },
   "entrypoints": [
-    "static/css/main.689ae271.css",
-    "static/js/main.0c4e837a.js"
+    "static/css/main.43579065.css",
+    "static/js/main.047ea324.js"
   ]
 }
