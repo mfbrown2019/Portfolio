@@ -238,6 +238,12 @@ function App() {
                         <b>CONTACT ME</b>
                     </h2>
                     <input
+                        type="text"
+                        name="_honey"
+                        style="display: none;"
+                    ></input>
+                    <input type="hidden" name="_captcha" value="false"></input>
+                    <input
                         className="contact-name"
                         placeholder="Name"
                         name="Name"
