@@ -229,7 +229,11 @@ function App() {
                         <h4>League of Legends Match History - React</h4>
                     </div>
                 </div>
-                <div className="contact">
+                <form
+                    className="contact"
+                    action="https://formsubmit.co/mbrown2019@my.fit.edu"
+                    method="POST"
+                >
                     <h2 className="contact-title">
                         <b>CONTACT ME</b>
                     </h2>
@@ -247,7 +251,7 @@ function App() {
                         placeholder="Enter message..."
                     ></textarea>
                     <button className="contact-submit">Send</button>
-                </div>
+                </form>
                 <footer className="footer">
                     <div className="phone">
                         <img src={phone}></img>
