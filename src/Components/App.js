@@ -240,7 +240,7 @@ function App() {
                     <input
                         type="text"
                         name="_honey"
-                        style="display: none;"
+                        style={{ display: "none" }}
                     ></input>
                     <input type="hidden" name="_captcha" value="false"></input>
                     <input
