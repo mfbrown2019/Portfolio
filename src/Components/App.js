@@ -237,18 +237,25 @@ function App() {
                     <h2 className="contact-title">
                         <b>CONTACT ME</b>
                     </h2>
-                    <input className="contact-name" placeholder="Name"></input>
+                    <input
+                        className="contact-name"
+                        placeholder="Name"
+                        name="Name"
+                    ></input>
                     <input
                         className="contact-subject"
                         placeholder="Subject"
+                        name="Subject"
                     ></input>
                     <input
                         className="contact-email"
                         placeholder="Email"
+                        name="Email"
                     ></input>
                     <textarea
                         className="contact-message"
                         placeholder="Enter message..."
+                        name="Message"
                     ></textarea>
                     <button className="contact-submit">Send</button>
                 </form>
