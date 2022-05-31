@@ -93,24 +93,6 @@ function App() {
                             <img src={frontend}></img>
                             <p>HTML CSS JS REACT</p>
                         </div>
-                        <div className="card-content">
-                            <h5 className="html-name">HTML</h5>
-                            <div className="full-html">
-                                <p className="html-percent">80%</p>
-                            </div>
-                            <h5 className="css-name">CSS</h5>
-                            <div className="full-css">
-                                <p className="css-percent">70%</p>
-                            </div>
-                            <h5 className="java-name">JS</h5>
-                            <div className="full-java">
-                                <p className="java-percent">60%</p>
-                            </div>
-                            <h5 className="react-name">REACT</h5>
-                            <div className="full-react">
-                                <p className="react-percent">70%</p>
-                            </div>
-                        </div>
                     </div>
                     <div className="back-end">
                         <div className="original">
@@ -118,36 +100,12 @@ function App() {
                             <img src={backend}></img>
                             <p>PYTHON C</p>
                         </div>
-                        <div className="card-content">
-                            <h5 className="python-name">PYTHON</h5>
-                            <div className="full-python">
-                                <p className="python-percent">85%</p>
-                            </div>
-                            <h5 className="c-name">C</h5>
-                            <div className="full-c">
-                                <p className="c-percent">80%</p>
-                            </div>
-                        </div>
                     </div>
                     <div className="sql">
                         <div className="original">
                             <h1>Database</h1>
                             <img src={sql}></img>
                             <p>SQL Tabels Redundancy</p>
-                        </div>
-                        <div className="card-content">
-                            <h5 className="sql-name">SQL</h5>
-                            <div className="full-sql">
-                                <p className="sql-percent">50%</p>
-                            </div>
-                            <h5 className="tabels-name">Tabels</h5>
-                            <div className="full-tabels">
-                                <p className="tabels-percent">60%</p>
-                            </div>
-                            <h5 className="red-name">Redundancy</h5>
-                            <div className="full-red">
-                                <p className="red-percent">55%</p>
-                            </div>
                         </div>
                     </div>
                 </div>
