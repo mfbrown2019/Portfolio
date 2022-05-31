@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1ab982e6.css",
-    "main.js": "/Portfolio/static/js/main.b82710f9.js",
+    "main.css": "/Portfolio/static/css/main.8259de31.css",
+    "main.js": "/Portfolio/static/js/main.c9087f51.js",
     "static/media/fullbody.jpg": "/Portfolio/static/media/fullbody.abbb70c4f837ea90d87e.jpg",
     "static/media/backend.png": "/Portfolio/static/media/backend.c9d20fcdb0a390be8e4b.png",
     "static/media/Matthew Brown Resume.docx": "/Portfolio/static/media/Matthew Brown Resume.2778611f94baa5709b71.docx",
@@ -14,11 +14,11 @@
     "static/media/chessCover.png": "/Portfolio/static/media/chessCover.98ee3db1ea34adee4796.png",
     "static/media/sql.png": "/Portfolio/static/media/sql.716ccee06a2406fb4ec4.png",
     "index.html": "/Portfolio/index.html",
-    "main.1ab982e6.css.map": "/Portfolio/static/css/main.1ab982e6.css.map",
-    "main.b82710f9.js.map": "/Portfolio/static/js/main.b82710f9.js.map"
+    "main.8259de31.css.map": "/Portfolio/static/css/main.8259de31.css.map",
+    "main.c9087f51.js.map": "/Portfolio/static/js/main.c9087f51.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ab982e6.css",
-    "static/js/main.b82710f9.js"
+    "static/css/main.8259de31.css",
+    "static/js/main.c9087f51.js"
   ]
 }
