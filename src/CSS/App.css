@@ -545,6 +545,7 @@ h2 {
     text-align: left;
     padding-left: 1rem;
     padding-top: 1rem;
+    list-style: none;
 }
 
 .project-grid h4 {

@@ -185,7 +185,31 @@ function App() {
                     <div className="two-text">
                         <h4>Chess Neural Network - Python</h4>
                         <ul>
-                            <li></li>
+                            <li>
+                                Dense Neural Network used to try and predict who
+                                is currently winning a game of chess.
+                            </li>
+                            <li>
+                                This project uses tensorflow and thousands of
+                                data points of information for training
+                            </li>
+                            <li>
+                                For training positions we took chess puzzles
+                                represented as a FEN string. Example -
+                                3r2k1/2pqnpp1/1p5p/p2P4/P2p1rP1/2P1N1P1/1PQ2P2/3RR1K1
+                                b - - 0 23
+                            </li>
+                            <li>
+                                We trained many different models with LeNetReg
+                                ending up being the best model after many
+                                iterations of training
+                            </li>
+                            <li>
+                                Each iteration of training we changed a
+                                hyperparameter including epoch, l1, l2, dropout,
+                                activation function, and alpha
+                            </li>
+                            <li>The final model got an accuracy of 95%</li>
                         </ul>
                     </div>
                     <iframe
@@ -197,6 +221,26 @@ function App() {
                     ></iframe>
                     <div className="three-text ">
                         <h4>Student Database - Python</h4>
+                        <ul>
+                            <li>
+                                This was my final project for a Python Class In
+                                School
+                            </li>
+                            <li>
+                                The goal was to create a student database that a
+                                user could add, search, display student data
+                            </li>
+                            <li>
+                                Each Student recieved a unique ID number and the
+                                first 20 students have photos related that
+                                display when searched
+                            </li>
+                            <li>
+                                The database is written in SQLite and is used
+                                for fitering data when users search for certain
+                                information{" "}
+                            </li>
+                        </ul>
                     </div>
                     <iframe
                         className="four-picture picture"
@@ -207,6 +251,25 @@ function App() {
                     ></iframe>
                     <div className="four-text">
                         <h4>League of Legends Match History - React</h4>
+                        <ul>
+                            <li>
+                                This Applicaiton was written with React and
+                                shows off the use of using and displaying
+                                information from an api
+                            </li>
+                            <li>
+                                Riot Games offers a free API to search for
+                                information about players over most of their
+                                games which I used to display a players last x
+                                amount of matches
+                            </li>
+                            <li>
+                                This application will display all players in the
+                                game, team that won, each players items they
+                                purchased throughout the game, the character
+                                they played, and their role in the game
+                            </li>
+                        </ul>
                     </div>
                     <iframe
                         className="five-picture picture"
