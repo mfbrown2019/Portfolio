@@ -1,4 +1,5 @@
 import "../CSS/App.css";
+import "../CSS/media.css";
 import github from "../Pictures/github.png";
 import linkedin from "../Pictures/linkedin.png";
 import me from "../Pictures/headShot.png";
@@ -18,22 +19,21 @@ function App() {
                 <div className="container-box img">
                     <img src={me} height="150"></img>
                 </div>
-                <div className="whitespace">Matthew Brown</div>
-                <div className="container-box hover">Home</div>
-                <div className="container-box hover">About</div>
-                <div className="container-box hover">Projects</div>
-                <div className="container-box hover">Work Experience</div>
-                <div className="container-box hover whitespace">Contact Me</div>
-                <div className="container-box">
-                    <a href="https://github.com/mfbrown2019?tab=repositories">
-                        <img src={github} height="50"></img>
-                    </a>
+                <div className="whitespace title">Matthew Brown</div>
+                <div className="container-box hover top">Home</div>
+                <div className="container-box hover about">About</div>
+                <div className="container-box hover project">Projects</div>
+                <div className="container-box hover whitespace contactMe">
+                    Contact Me
                 </div>
-                <div className="container-box">
-                    <a href="https://www.linkedin.com/in/matthew-brown-3b73b9207/?trk=public-profile-join-page">
-                        <img src={linkedin} height="50"></img>
-                    </a>
-                </div>
+
+                <a href="https://github.com/mfbrown2019?tab=repositories">
+                    <img src={github} height="50"></img>
+                </a>
+
+                <a href="https://www.linkedin.com/in/matthew-brown-3b73b9207/?trk=public-profile-join-page">
+                    <img src={linkedin} height="50"></img>
+                </a>
             </div>
 
             <div className="FullPage">
@@ -54,7 +54,7 @@ function App() {
                         {/* <img></img> */}
 
                         <h1>I'm Matthew Brown, a Full Stack Developer</h1>
-                        <div>
+                        <div className="paragraph">
                             <p>
                                 I am a Software Developer located in South
                                 Carolina and have been coding for years. I am

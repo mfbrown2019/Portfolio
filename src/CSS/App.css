@@ -66,17 +66,21 @@ h2 {
 .about-grid {
     background-color: ghostwhite;
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr 5fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr 5fr 1fr;
     grid-template-rows: 1fr 1fr 10fr 1fr;
     /* border: 1px solid red; */
+    grid-template-areas:
+        "... ... ... ... ..."
+        "... title ... ... ..."
+        "... image ... text ..."
+        "... ... ... ... ...";
     height: 100vh;
     background-color: #111;
     color: white;
 }
 .about-grid .title {
-    grid-column: 2;
+    grid-area: title;
     text-align: left;
-    grid-row: 2;
     color: lightcoral;
     /* border: 1px solid red; */
 }
@@ -86,14 +90,12 @@ h2 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    grid-column: 2;
-    grid-row: 3;
+    grid-area: image;
     /* border: 1px solid red; */
 }
 
 .about-grid .content {
-    grid-column: 4;
-    grid-row: 3;
+    grid-area: text;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -541,7 +543,10 @@ h2 {
 }
 .project-grid div > ul > li {
     text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
+
 .project-grid h4 {
     text-align: left;
 }
@@ -682,7 +687,7 @@ h2 {
     height: 25vh;
     background-color: #111;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
     grid-template-areas:
         "... ... ... ... ..."
