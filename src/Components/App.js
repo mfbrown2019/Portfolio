@@ -279,6 +279,19 @@ function App() {
                         <img src={email}></img>
                         <p>mbrown2019@my.fit.edu</p>
                     </div>
+                    <a
+                        className="github"
+                        href="https://github.com/mfbrown2019?tab=repositories"
+                    >
+                        <img src={github} height="50"></img>
+                    </a>
+
+                    <a
+                        className="linkedin"
+                        href="https://www.linkedin.com/in/matthew-brown-3b73b9207/?trk=public-profile-join-page"
+                    >
+                        <img src={linkedin} height="50"></img>
+                    </a>
                 </footer>
             </div>
         </div>

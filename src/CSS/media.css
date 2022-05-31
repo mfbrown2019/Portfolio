@@ -60,12 +60,12 @@
         height: 25vh;
         background-color: #111;
         display: grid;
-        grid-template-columns: 0.5fr 2fr 0.5fr 2fr 0.5fr;
+        grid-template-columns: 0.5fr 2fr 1fr 2fr 0.5fr;
         grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
         grid-template-areas:
             "... ... ... ... ..."
-            "... phone ... email ..."
-            "... phone ... email ..."
+            "... phone git email ..."
+            "... phone link email ..."
             "... ... ... ... ...";
     }
     .footer > * {
@@ -77,6 +77,12 @@
         display: grid;
         place-items: center;
         justify-content: space-around;
+    }
+    .github {
+        grid-area: git;
+    }
+    .linkedin {
+        grid-area: link;
     }
 }
 
@@ -219,12 +225,12 @@
         height: 25vh;
         background-color: #111;
         display: grid;
-        grid-template-columns: 0.5fr 2fr 0.5fr 2fr 0.5fr;
+        grid-template-columns: 0.5fr 2fr 1fr 2fr 0.5fr;
         grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
         grid-template-areas:
             "... ... ... ... ..."
-            "... phone ... email ..."
-            "... phone ... email ..."
+            "... phone git email ..."
+            "... phone link email ..."
             "... ... ... ... ...";
     }
     .footer > * {
@@ -236,5 +242,12 @@
         display: grid;
         place-items: center;
         justify-content: space-around;
+    }
+    .github {
+        grid-area: git;
+        width: 100%l;
+    }
+    .linkedin {
+        grid-area: link;
     }
 }

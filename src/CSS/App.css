@@ -720,3 +720,7 @@ h2 {
 .email > img {
     width: 25%;
 }
+.github,
+.linkedin {
+    display: none;
+}
