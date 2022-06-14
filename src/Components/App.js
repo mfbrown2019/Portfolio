@@ -117,9 +117,9 @@ function App() {
                     <iframe
                         className="one-picture picture"
                         src="https://www.youtube.com/embed/TioQZWiNxh0"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
+                        allowFullScreen
                     ></iframe>
                     <div className="one-text">
                         <h4>BFS Shortest Path Simulation - Python</h4>
@@ -172,9 +172,8 @@ function App() {
                     <iframe
                         className="three-picture picture"
                         src="https://www.youtube.com/embed/9z-BrlxOUyE"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen="true"
                     ></iframe>
                     <div className="three-text ">
                         <h4>Student Database - Python</h4>
@@ -202,9 +201,8 @@ function App() {
                     <iframe
                         className="four-picture picture"
                         src="https://www.youtube.com/embed/06xCfRM8w-c"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen="true"
                     ></iframe>
                     <div className="four-text">
                         <h4>League of Legends Match History - React</h4>
@@ -231,10 +229,8 @@ function App() {
                     <iframe
                         className="five-picture picture"
                         src="https://www.youtube.com/embed/Q-c_3kplCP4"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen="true"
-                        muted="true"
                     ></iframe>
                     <div className="five-text">
                         <h4>Stock Market Portfolio - React</h4>
@@ -272,9 +268,8 @@ function App() {
                     <iframe
                         className="six-picture picture"
                         src="https://www.youtube.com/embed/Q-c_3kplCP4"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen="true"
                     ></iframe>
                     <div className="six-text">
                         <h4>League of Legends Match History - React</h4>
