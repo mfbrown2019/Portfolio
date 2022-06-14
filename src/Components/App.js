@@ -237,7 +237,7 @@ function App() {
 
                         <ul>
                             <li>
-                                I made this application to help track my trading
+                                This application to help track my trading
                                 account and show my statistics on my trades.
                             </li>
                             <li>
@@ -264,7 +264,6 @@ function App() {
                         </ul>
                     </div>
 
-                    {/* https://www.youtube.com/watch?v=JgZwzAyYPjc */}
                     <iframe
                         className="six-picture picture"
                         src="https://www.youtube.com/embed/Q-c_3kplCP4"
