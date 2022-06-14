@@ -91,21 +91,21 @@ function App() {
                         <div className="original">
                             <h1>Front End</h1>
                             <img src={frontend}></img>
-                            <p>HTML CSS JS REACT</p>
+                            <p>HTML - CSS - JS - REACT</p>
                         </div>
                     </div>
                     <div className="back-end">
                         <div className="original">
                             <h1>Back End</h1>
                             <img src={backend}></img>
-                            <p>PYTHON C</p>
+                            <p>PYTHON - C</p>
                         </div>
                     </div>
                     <div className="sql">
                         <div className="original">
                             <h1>Database</h1>
                             <img src={sql}></img>
-                            <p>SQL Tabels Redundancy</p>
+                            <p>SQL - JSON </p>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,6 @@ function App() {
                     <h2 className="title">
                         <b>PROJECTS</b>
                     </h2>
-
                     <iframe
                         className="one-picture picture"
                         src="https://www.youtube.com/embed/TioQZWiNxh0"
@@ -231,17 +230,48 @@ function App() {
                     </div>
                     <iframe
                         className="five-picture picture"
-                        src="https://www.youtube.com/embed/06xCfRM8w-c"
+                        src="https://www.youtube.com/embed/Q-c_3kplCP4"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen="true"
+                        muted="true"
                     ></iframe>
                     <div className="five-text">
-                        <h4>League of Legends Match History - React</h4>
+                        <h4>Stock Market Portfolio - React</h4>
+
+                        <ul>
+                            <li>
+                                I made this application to help track my trading
+                                account and show my statistics on my trades.
+                            </li>
+                            <li>
+                                I am using the Alpaca trading API to get my
+                                account information / trades / and placeing
+                                orders.
+                            </li>
+                            <li>
+                                I am also using the trading view free chart,
+                                screener, and tape widgets to get delayed market
+                                information
+                            </li>
+                            <li>
+                                This application uses a simple json server as a
+                                backend so I can keep my trades on the site over
+                                an extended period and sort them accordingly
+                            </li>
+                            <li>
+                                The main functionality of the platform is to see
+                                your open positions, study charts, create a
+                                database of your past trades, analyze your
+                                statstics, and to place trades through Alpaca
+                            </li>
+                        </ul>
                     </div>
+
+                    {/* https://www.youtube.com/watch?v=JgZwzAyYPjc */}
                     <iframe
                         className="six-picture picture"
-                        src="https://www.youtube.com/embed/06xCfRM8w-c"
+                        src="https://www.youtube.com/embed/Q-c_3kplCP4"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen="true"
